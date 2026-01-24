@@ -192,7 +192,7 @@
 &kp BSLH    &kp SQT      &kp COMMA  &lt 5 DOT   &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &lt 2 TAB   &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &lt 2 MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
-                                    &caps_word  &lt 1 BSPC   &kp ESC    &lt 5 RET  &lt 6 SPACE  &kp RALT
+                                    &caps_word  &lt 1 BSPC   &kp ESC    &lt 5 RET  &lt 6 SPACE  &lt 3 LGUI
             >;
         };
 
@@ -225,7 +225,7 @@
             bindings = <
 &trans  &kp CARET &kp AMPS        &kp ASTRK       &kp LPAR         &kp RPAR          &kp SQT    &kp DQT   &kp BSLH   &kp LPAR  &kp RPAR  &trans
 &trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT         &kp TILDE  &kp GRAVE  &kp FSLH   &kp LBRC  &kp RBRC  &trans
-&trans  &trans    &trans          &trans          &trans           &kp TILDE         &kp GRAVE  &kp PLUS   &kp PIPE   &kp LBKT  &kp RBKT  &trans
+&trans  &trans    &trans          &trans          &trans           &kp TILDE         &kp GRAVE  &kp DLLR   &kp PIPE   &kp LBKT  &kp RBKT  &trans
                                   &kp LGUI        &kp BSPC         &kp SPACE         &kp RET    &kp SPACE     &trans
             >;
         };
