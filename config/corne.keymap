@@ -192,7 +192,7 @@
 &kp BSLH    &kp SQT      &kp COMMA  &lt 5 DOT   &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &lt 2 TAB   &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &lt 2 MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
-                                    &caps_word  &lt 1 BSPC   &kp ESC    &kp RET  &lt 6 SPACE  &kp RALT
+                                    &caps_word  &lt 1 BSPC   &kp ESC    &lt 5 RET  &lt 6 SPACE  &kp RALT
             >;
         };
 
@@ -251,8 +251,8 @@
         NUM {
                 display-name = "Num";
             bindings = <
-&trans  &trans       &trans        &trans         &trans   &trans      &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &trans
-&trans  &trans       &trans        &trans         &trans   &trans      &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans  &trans
+&trans  &kp N1       &kp N2        &kp N3         &kp N4   &kp N5      &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &trans
+&trans  &kp N6       &kp N7        &kp N8         &kp N9   &kp N0      &trans  &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans  &trans
 &trans  &trans       &trans        &trans         &trans   &trans      &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans
                                    &trans         &trans   &trans      &trans  &trans  &trans
             >;
