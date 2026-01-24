@@ -185,7 +185,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp BSLH    &kp SQT      &kp COMMA  &kp DOT     &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp BACKSPACE
+&kp BSLH    &kp SQT      &kp COMMA  &kp DOT     &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &kp TAB     &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &kp MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
                                     &caps_word  &lt 1 BSPC   &kp ESC    &kp RET  &kp SPACE  &lt 2 TAB
@@ -202,10 +202,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&trans  &kp N1  &kp N2    &kp N3       &kp N4           &kp N5           &kp N6   &kp N7        &kp N8        &kp N9        &kp N0  &trans
-&caps_word  &trans  &trans    &kp UP_ARROW  &browsertab      &kp PAGE_UP      &kp N0   &kp N4  &kp N5        &kp N6  &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &trans   &kp N1  &kp N2  &kp N3  &trans  &trans
-                          &kp LGUI      &trans           &kp SPACE        &kp RET  &mo 3        &trans
+&trans  &kp N1    &kp N2   &kp N3     &kp N4        &kp N5               &kp N6    &kp N7   &kp N8   &kp N9  &kp N0    &trans
+&trans  &kp LCTRL &kp LALT &kp LSHFT  &kp LGUI      &kp PAGE_UP          &kp HOME  &kp LEFT &kp DOWN &kp UP  &kp RIGHT &kp END
+&trans  &trans    &trans   &trans     &trans        &trans               &trans    &kp N1   &kp N2   &kp N3  &trans    &trans
+                           &kp LGUI      &trans       &kp SPACE       &kp RET  &kp BSPC &trans
             >;
         };
 
