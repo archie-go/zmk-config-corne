@@ -8,6 +8,7 @@
 #define SYM 2
 #define ADJ 3
 #define EXTRA 4
+#define NUM 5
 
 / {
     behaviors {
@@ -242,6 +243,15 @@
 &trans  &trans       &trans        &mmv MOVE_UP      &trans   &msc SCRL_DOWN            &trans  &mkp LCLK  &mkp RCLK  &trans  &trans       &trans
 &trans  &trans       &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                      &trans        &trans      &trans            &trans  &trans  &trans
+            >;
+        };
+        NUM {
+                display-name = "Num";
+            bindings = <
+&trans  &trans       &trans        &trans         &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans        &trans         &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans        &trans         &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans         &trans   &trans      &trans  &trans  &trans
             >;
         };
     };
