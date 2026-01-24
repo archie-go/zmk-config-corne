@@ -260,10 +260,10 @@
         HYP {
                 display-name = "Hyper";
             bindings = <
-&trans  &trans       &trans        &trans         &trans   &trans      &trans  &kp KP_N7  &kp KP_N8  &kp KP_N9  &trans  &trans
-&trans  &kp LA(A)    &kp LA(O)     &kp LA(E)      &kp LA(U) &kp LA(I)  &trans  &kp HYP(D)  &kp KP_N5  &kp KP_N6  &trans  &trans
-&trans  &trans       &trans        &trans         &trans   &trans      &trans  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans  &trans
-                                   &trans         &trans   &trans      &trans  &trans  &trans
+&trans  &trans       &trans        &trans         &kp HYP(P) &kp HYP(Y)      &kp HYP(F)  &kp HYP(G)  &kp HYP(C)  &kp HYP(R)  &kp HYP(L)  &trans
+&trans  &kp LA(A)    &kp LA(O)     &kp LA(E)      &kp LA(U)  &kp LA(I)       &kp HYP(D)  &kp HYP(H)  &kp HYP(T)  &kp HYP(N)  &kp HYP(S)  &trans
+&trans  &trans       &kp HYP(Q)    &kp HYP(J)     &kp HYP(K) &kp HYP(X)      &kp HYP(B)  &kp HYP(M)  &kp HYP(W)  &kp HYP(V)  &kp HYP(Z)  &trans
+                                   &trans         &trans   &trans            &trans  &trans  &trans
             >;
         };
     };
