@@ -186,7 +186,7 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&kp BSLH    &kp SQT      &kp COMMA  &kp DOT     &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
+&kp BSLH    &kp SQT      &kp COMMA  &lt 5 DOT   &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &kp TAB     &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &kp MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
                                     &caps_word  &lt 1 BSPC   &kp ESC    &kp RET  &lt 5 SPACE  &kp RALT
