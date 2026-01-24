@@ -192,7 +192,7 @@
 &kp BSLH    &kp SQT      &kp COMMA  &lt 5 DOT   &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &lt 2 TAB   &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &lt 2 MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
-                                    &caps_word  &lt 1 BSPC   &lt 5 ESC    &lt 5 RET  &lt 6 SPACE  &lt 3 LGUI
+                                    &caps_word  &lt 1 BSPC   &lt 4 ESC    &lt 5 RET  &lt 6 SPACE  &lt 3 LGUI
             >;
         };
 
@@ -240,12 +240,12 @@
             >;
         };
         EXTRA {
-                display-name = "Extra";
+                display-name = "Mouse";
             bindings = <
-&trans  &trans       &trans         &trans          &trans      &msc SCRL_UP    &trans  &trans  &trans  &trans  &trans      &trans
-&trans  &trans       &trans        &mmv MOVE_UP      &trans   &msc SCRL_DOWN            &trans  &mkp LCLK  &mkp RCLK  &trans  &trans       &trans
-&trans  &trans       &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                     &trans        &trans      &trans            &trans  &trans  &trans
+&trans  &trans       &trans         &trans            &trans      &trans           &trans  &trans          &mmv MOVE_UP    &trans           &trans      &trans
+&trans  &trans       &trans         &kp LSHFT         &mkp LCLK   &trans           &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans      &trans
+&trans  &trans       &trans         &trans            &trans      &trans           &trans  &msc SCRL_UP    &msc SCRL_DOWN  &trans  &trans  &trans
+                                     &trans        &trans      &trans              &trans  &mkp LCLK     &mkp RCLK
             >;
         };
         NUM {
