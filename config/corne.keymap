@@ -13,6 +13,9 @@
 
 #define HYP(key) LS(LC(LA(LG(key))))
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1500  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
 / {
     behaviors {
         hm: homerow_mods {
