@@ -164,17 +164,17 @@
             layers = <0>;
         };
 
-        para-less {
-            bindings = <&paraless>;
-            key-positions = <20 19>;
-            layers = <0>;
-        };
+        //para-less {
+        //    bindings = <&paraless>;
+        //    key-positions = <20 19>;
+        //    layers = <0>;
+        //};
 
-        para-great {
-            bindings = <&paragreat>;
-            key-positions = <20 21>;
-            layers = <0>;
-        };
+        //para-great {
+        //    bindings = <&paragreat>;
+        //    key-positions = <20 21>;
+        //    layers = <0>;
+        //};
     };
 
     //
