@@ -70,6 +70,22 @@
                 <&macro_release>,
                 <&kp LCTRL>;
         };
+        a_grave: a_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp GRAVE>,
+                <&kp A>;
+        };
+        a_circ: a_circ {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp CARET>,
+                <&kp A>;
+        };
         e_grave: e_grave {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -94,12 +110,28 @@
                 <&kp SQT>,
                 <&kp E>;
         };
+        u_grave: u_grave {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp GRAVE>,
+                <&kp U>;
+        };
 
     };
 
     combos {
         compatible = "zmk,combos";
 
+        a_grave {
+            bindings = <&a_grave>;
+            key-positions = <12 1>;
+        };
+        a_circ {
+            bindings = <&a_circ>;
+            key-positions = <12 3>;
+        };
         e_grave {
             bindings = <&e_grave>;
             key-positions = <15 2>;
@@ -111,6 +143,10 @@
         e_aigu {
             bindings = <&e_aigu>;
             key-positions = <15 4>;
+        };
+        u_grave {
+            bindings = <&u_grave>;
+            key-positions = <16 4>;
         };
 
         caps_word {
