@@ -126,11 +126,11 @@
 
         a_grave {
             bindings = <&a_grave>;
-            key-positions = <12 1>;
+            key-positions = <13 1>;
         };
         a_circ {
             bindings = <&a_circ>;
-            key-positions = <12 3>;
+            key-positions = <13 2>;
         };
         e_grave {
             bindings = <&e_grave>;
