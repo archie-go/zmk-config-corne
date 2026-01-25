@@ -70,11 +70,24 @@
                 <&macro_release>,
                 <&kp LCTRL>;
         };
+        e_aigu: e_aigu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp SQT>,
+                <&kp E>;
+        };
 
     };
 
     combos {
         compatible = "zmk,combos";
+
+        e_aigu {
+            bindings = <&e_aigu>;
+            key-positions = <15 4>;
+        };
 
         caps_word {
             bindings = <&caps_word>;
