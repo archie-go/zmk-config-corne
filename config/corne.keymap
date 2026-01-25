@@ -76,6 +76,11 @@
     combos {
         compatible = "zmk,combos";
 
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <24 35>;
+        };
+
         escape {
             bindings = <&kp ESCAPE>;
             key-positions = <13 29>;
@@ -195,7 +200,7 @@
 &kp BSLH    &kp SQT      &kp COMMA  &lt 5 DOT   &kp P       &kp Y        &kp F    &kp G      &kp C       &kp R       &kp L        &kp FSLH
 &lt 2 TAB   &hm LCTRL A  &hm LALT O &hm LSHFT E &hm LGUI U  &kp I        &kp D    &hm RGUI H &hm RSHFT T &hm RALT N  &hm RCTRL S  &lt 2 MINUS
 &kp GRAVE   &kp SEMI     &kp Q      &kp J       &kp K       &kp X        &kp B    &kp M      &kp W       &kp V       &kp Z        &kp EQUAL
-                                    &caps_word  &lt 1 BSPC   &lt 4 ESC    &lt 5 RET  &lt 6 SPACE  &lt 3 LGUI
+                                    &lt 5 LGUI  &lt 1 BSPC   &lt 4 ESC    &lt 5 RET  &lt 6 SPACE  &lt 3 LGUI
             >;
         };
 
