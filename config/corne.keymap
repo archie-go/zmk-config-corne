@@ -130,7 +130,7 @@
         };
         a_circ {
             bindings = <&a_circ>;
-            key-positions = <13 2>;
+            key-positions = <13 3>;
         };
         e_grave {
             bindings = <&e_grave>;
