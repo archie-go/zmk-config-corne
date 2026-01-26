@@ -126,27 +126,27 @@
 
         a_grave {
             bindings = <&a_grave>;
-            key-positions = <13 1>;
+            key-positions = <13 25>;
         };
         a_circ {
             bindings = <&a_circ>;
-            key-positions = <13 3>;
+            key-positions = <13 27>;
         };
         e_grave {
             bindings = <&e_grave>;
-            key-positions = <15 2>;
+            key-positions = <15 26>;
         };
         e_circ {
             bindings = <&e_circ>;
-            key-positions = <15 3>;
+            key-positions = <15 27>;
         };
         e_aigu {
             bindings = <&e_aigu>;
-            key-positions = <15 4>;
+            key-positions = <15 28>;
         };
         u_grave {
             bindings = <&u_grave>;
-            key-positions = <16 4>;
+            key-positions = <16 28>;
         };
 
         caps_word {
